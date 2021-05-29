@@ -1,0 +1,22 @@
+[
+  {
+    "lower": 0,
+    "upper": 12500,
+    "rate": 0
+  },
+  {
+    "lower": 12501,
+    "upper": 50000,
+    "rate": 20
+  },
+  {
+    "lower": 50001,
+    "upper": 150000,
+    "rate": 40
+  },
+  {
+    "lower": 150001,
+    "upper": null,
+    "rate": 45
+  }
+]

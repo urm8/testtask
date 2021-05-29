@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "taxapi"
+version = "0.1.0"
+description = ""
+authors = ["urm8 <arctgisnil@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.1"
+flasgger = "^0.9.5"
+orjson = "^3.5.2"
+jsonschema = "^3.2.0"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-aiohttp = "^0.3.0"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

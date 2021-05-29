@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "lower": {
+                "type": "integer"
+            },
+            "upper": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "rate": {
+                "type": "integer"
+            }
+        },
+        "required": [
+            "lower",
+            "upper",
+            "rate"
+        ]
+    },
+    "additionalItems": false
+}
